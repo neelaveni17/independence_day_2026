@@ -1,12 +1,9 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>Independence Day 2026 - India</title>
+  <title>India Independence Day 2026</title>
 
   <style>
     * {
@@ -19,77 +16,34 @@
       font-family: Arial, sans-serif;
       background: #f5f5f5;
       color: #222;
+      text-align: center;
     }
 
-    /* HERO */
     .hero {
       min-height: 100vh;
+      padding: 40px 15px;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      text-align: center;
-      padding: 30px 15px;
-      background: linear-gradient(
-        135deg,
-        #fff1df,
-        #ffffff,
-        #eaf7e8
-      );
+      background: linear-gradient(135deg, #fff1df, #ffffff, #eaf7e8);
     }
 
-    /* INDIAN FLAG */
     .flag {
       width: min(600px, 90vw);
       aspect-ratio: 3 / 2;
       box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
       overflow: hidden;
-      border-radius: 2px;
+      border: 1px solid #ddd;
+      background: white;
     }
 
-    .saffron {
-      height: 33.3333%;
-      background: #ff9933;
-    }
-
-    .white {
-      height: 33.3333%;
-      background: #ffffff;
-
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .green {
-      height: 33.3333%;
-      background: #138808;
-    }
-
-    /* ASHOKA CHAKRA */
-    .chakra {
-      width: 115px;
-      height: 115px;
+    .flag svg {
+      width: 100%;
+      height: 100%;
       display: block;
     }
 
-    .chakra-circle {
-      fill: none;
-      stroke: #000080;
-      stroke-width: 2.5;
-    }
-
-    .chakra-spoke {
-      stroke: #000080;
-      stroke-width: 2.2;
-      stroke-linecap: round;
-    }
-
-    .chakra-center {
-      fill: #000080;
-    }
-
-    /* TITLE */
     h1 {
       margin-top: 35px;
       font-size: 42px;
@@ -113,7 +67,6 @@
       color: #444;
     }
 
-    /* BUTTON */
     .button {
       display: inline-block;
       margin-top: 25px;
@@ -129,7 +82,6 @@
       background: #138808;
     }
 
-    /* SECTIONS */
     section {
       max-width: 1050px;
       margin: 35px auto;
@@ -137,7 +89,6 @@
       background: white;
       border-radius: 15px;
       box-shadow: 0 5px 20px rgba(0, 0, 0, 0.12);
-      text-align: center;
     }
 
     section h2 {
@@ -151,360 +102,7 @@
       line-height: 1.7;
     }
 
-    /* CARDS */
     .cards {
       display: flex;
       justify-content: center;
-      flex-wrap: wrap;
-      gap: 20px;
-      margin-top: 25px;
-    }
-
-    .card {
-      width: 280px;
-      padding: 25px;
-      background: #fafafa;
-      border-radius: 12px;
-      border-top: 5px solid #ff9933;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    }
-
-    .card:nth-child(2) {
-      border-top-color: #000080;
-    }
-
-    .card:nth-child(3) {
-      border-top-color: #138808;
-    }
-
-    .card h3 {
-      margin-bottom: 12px;
-      font-size: 21px;
-    }
-
-    .card p {
-      font-size: 16px;
-    }
-
-    /* TIMELINE */
-    .timeline {
-      max-width: 750px;
-      margin: auto;
-      text-align: left;
-    }
-
-    .timeline-item {
-      margin: 18px 0;
-      padding: 18px;
-      border-left: 5px solid #138808;
-      background: #f8f8f8;
-      border-radius: 5px;
-    }
-
-    .timeline-item strong {
-      color: #ff6b00;
-      font-size: 20px;
-    }
-
-    /* FOOTER */
-    footer {
-      margin-top: 40px;
-      padding: 30px 15px;
-      background: #222;
-      color: white;
-      text-align: center;
-    }
-
-    .jai {
-      font-size: 30px;
-      font-weight: bold;
-      color: #ff9933;
-    }
-
-    footer p {
-      margin-top: 10px;
-    }
-
-    /* MOBILE */
-    @media (max-width: 600px) {
-
-      .chakra {
-        width: 80px;
-        height: 80px;
-      }
-
-      h1 {
-        font-size: 30px;
-      }
-
-      .date {
-        font-size: 19px;
-      }
-
-      .subtitle {
-        font-size: 16px;
-      }
-
-      .card {
-        width: 90%;
-      }
-    }
-  </style>
-</head>
-
-<body>
-
-  <!-- MAIN -->
-  <div class="hero">
-
-    <!-- INDIAN NATIONAL FLAG -->
-    <div class="flag">
-
-      <!-- SAFFRON -->
-      <div class="saffron"></div>
-
-      <!-- WHITE + ASHOKA CHAKRA -->
-      <div class="white">
-
-        <svg
-          class="chakra"
-          viewBox="0 0 100 100"
-          xmlns="http://www.w3.org/2000/svg"
-          aria-label="Ashoka Chakra with 24 spokes">
-
-          <!-- Outer wheel -->
-          <circle
-            class="chakra-circle"
-            cx="50"
-            cy="50"
-            r="45">
-          </circle>
-
-          <!-- Inner wheel -->
-          <circle
-            class="chakra-circle"
-            cx="50"
-            cy="50"
-            r="7">
-          </circle>
-
-          <!-- 24 SPOKES -->
-
-          <line class="chakra-spoke" x1="50" y1="50" x2="50" y2="5"/>
-          <line class="chakra-spoke" x1="50" y1="50" x2="50" y2="5"
-                transform="rotate(15 50 50)"/>
-          <line class="chakra-spoke" x1="50" y1="50" x2="50" y2="5"
-                transform="rotate(30 50 50)"/>
-          <line class="chakra-spoke" x1="50" y1="50" x2="50" y2="5"
-                transform="rotate(45 50 50)"/>
-          <line class="chakra-spoke" x1="50" y1="50" x2="50" y2="5"
-                transform="rotate(60 50 50)"/>
-          <line class="chakra-spoke" x1="50" y1="50" x2="50" y2="5"
-                transform="rotate(75 50 50)"/>
-          <line class="chakra-spoke" x1="50" y1="50" x2="50" y2="5"
-                transform="rotate(90 50 50)"/>
-          <line class="chakra-spoke" x1="50" y1="50" x2="50" y2="5"
-                transform="rotate(105 50 50)"/>
-          <line class="chakra-spoke" x1="50" y1="50" x2="50" y2="5"
-                transform="rotate(120 50 50)"/>
-          <line class="chakra-spoke" x1="50" y1="50" x2="50" y2="5"
-                transform="rotate(135 50 50)"/>
-          <line class="chakra-spoke" x1="50" y1="50" x2="50" y2="5"
-                transform="rotate(150 50 50)"/>
-          <line class="chakra-spoke" x1="50" y1="50" x2="50" y2="5"
-                transform="rotate(165 50 50)"/>
-          <line class="chakra-spoke" x1="50" y1="50" x2="50" y2="5"
-                transform="rotate(180 50 50)"/>
-          <line class="chakra-spoke" x1="50" y1="50" x2="50" y2="5"
-                transform="rotate(195 50 50)"/>
-          <line class="chakra-spoke" x1="50" y1="50" x2="50" y2="5"
-                transform="rotate(210 50 50)"/>
-          <line class="chakra-spoke" x1="50" y1="50" x2="50" y2="5"
-                transform="rotate(225 50 50)"/>
-          <line class="chakra-spoke" x1="50" y1="50" x2="50" y2="5"
-                transform="rotate(240 50 50)"/>
-          <line class="chakra-spoke" x1="50" y1="50" x2="50" y2="5"
-                transform="rotate(255 50 50)"/>
-          <line class="chakra-spoke" x1="50" y1="50" x2="50" y2="5"
-                transform="rotate(270 50 50)"/>
-          <line class="chakra-spoke" x1="50" y1="50" x2="50" y2="5"
-                transform="rotate(285 50 50)"/>
-          <line class="chakra-spoke" x1="50" y1="50" x2="50" y2="5"
-                transform="rotate(300 50 50)"/>
-          <line class="chakra-spoke" x1="50" y1="50" x2="50" y2="5"
-                transform="rotate(315 50 50)"/>
-          <line class="chakra-spoke" x1="50" y1="50" x2="50" y2="5"
-                transform="rotate(330 50 50)"/>
-          <line class="chakra-spoke" x1="50" y1="50" x2="50" y2="5"
-                transform="rotate(345 50 50)"/>
-
-          <!-- Center -->
-          <circle
-            class="chakra-center"
-            cx="50"
-            cy="50"
-            r="3">
-          </circle>
-
-        </svg>
-
-      </div>
-
-      <!-- GREEN -->
-      <div class="green"></div>
-
-    </div>
-
-
-    <h1>
-      <span>Happy Independence Day</span> 🇮🇳
-    </h1>
-
-    <p class="date">15 August 2026</p>
-
-    <p class="subtitle">
-      Celebrating India's Freedom, Unity and Progress
-    </p>
-
-    <a href="#about" class="button">
-      Explore India
-    </a>
-
-  </div>
-
-
-  <!-- ABOUT -->
-  <section id="about">
-
-    <h2>🇮🇳 About Independence Day</h2>
-
-    <p>
-      India celebrates Independence Day every year on
-      15 August. It commemorates India's independence
-      from British rule in 1947.
-    </p>
-
-  </section>
-
-
-  <!-- FREEDOM FIGHTERS -->
-  <section>
-
-    <h2>Freedom Fighters</h2>
-
-    <div class="cards">
-
-      <div class="card">
-        <h3>Mahatma Gandhi</h3>
-
-        <p>
-          A major leader of India's independence movement,
-          known for his philosophy of non-violence.
-        </p>
-      </div>
-
-
-      <div class="card">
-        <h3>Subhas Chandra Bose</h3>
-
-        <p>
-          A prominent nationalist leader who inspired people
-          through his dedication to India's freedom.
-        </p>
-      </div>
-
-
-      <div class="card">
-        <h3>Bhagat Singh</h3>
-
-        <p>
-          A revolutionary remembered for his courage,
-          patriotism and dedication to India's independence.
-        </p>
-      </div>
-
-    </div>
-
-  </section>
-
-
-  <!-- TIMELINE -->
-  <section>
-
-    <h2>India's Independence Journey</h2>
-
-    <div class="timeline">
-
-      <div class="timeline-item">
-        <strong>1857</strong>
-        <p>
-          The First War of Independence took place.
-        </p>
-      </div>
-
-      <div class="timeline-item">
-        <strong>1885</strong>
-        <p>
-          The Indian National Congress was founded.
-        </p>
-      </div>
-
-      <div class="timeline-item">
-        <strong>1930</strong>
-        <p>
-          The Civil Disobedience Movement gained momentum.
-        </p>
-      </div>
-
-      <div class="timeline-item">
-        <strong>1942</strong>
-        <p>
-          The Quit India Movement was launched.
-        </p>
-      </div>
-
-      <div class="timeline-item">
-        <strong>15 August 1947</strong>
-        <p>
-          India became an independent nation.
-        </p>
-      </div>
-
-    </div>
-
-  </section>
-
-
-  <!-- MESSAGE -->
-  <section>
-
-    <h2>Our Message 🇮🇳</h2>
-
-    <p>
-      Let us respect our nation, value our freedom,
-      protect our environment and work together
-      for a stronger and developed India.
-    </p>
-
-  </section>
-
-
-  <!-- FOOTER -->
-  <footer>
-
-    <div class="jai">
-      JAI HIND 🇮🇳
-    </div>
-
-    <p>
-      Happy Independence Day 2026
-    </p>
-
-    <p>
-      Made with ❤️ for India
-    </p>
-
-  </footer>
-
-</body>
-</html>
+     
